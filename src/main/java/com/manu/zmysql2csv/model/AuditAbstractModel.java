@@ -11,8 +11,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.Column;
 import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
-import javax.validation.constraints.Size;
 import java.util.Date;
+
+//import javax.validation.constraints.Size;
 
 @Getter
 @Setter
@@ -28,7 +29,7 @@ public abstract class AuditAbstractModel {
     private Date creationDate;
 
     @Column(name = "au_creation_user")
-    @Size(max = 50)
+//    @Size(max = 50)
     private String creationUser;
 
     @Column(name = "au_modification_date")
@@ -36,7 +37,7 @@ public abstract class AuditAbstractModel {
     private Date modificationDate;
 
     @Column(name = "au_modification_user")
-    @Size(max = 50)
+//    @Size(max = 50)
     private String modificationUser;
 
     @Column(name = "au_active")
