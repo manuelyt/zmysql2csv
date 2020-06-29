@@ -41,6 +41,10 @@ dependencies {
 
     // para el entity de los model s
     implementation "org.eclipse.persistence:jakarta.persistence:2.2.3"
+
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+
 }
 
 test {
