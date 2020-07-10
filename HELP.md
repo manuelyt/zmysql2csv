@@ -1,15 +1,7 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+### rest api con gradle ( hola mundo ) 
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/gradle-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/gradle-plugin/reference/html/#build-image)
-
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+coge un sql y lo transforma a csv : 
 
 http://localhost:8079/manu/?idFile=38

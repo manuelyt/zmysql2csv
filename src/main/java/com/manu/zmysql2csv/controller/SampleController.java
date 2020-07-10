@@ -18,4 +18,9 @@ public class SampleController {
     String jsonval(@RequestParam("idFile") final int idFile) {
         return this.mysql2csvFacade.convert(idFile);
     }
+
+    @RequestMapping("/")
+    String elastic(@RequestParam("idFile") final int idFile) {
+        return this.mysql2csvFacade.elastic(idFile);
+    }
 }
